@@ -51,9 +51,9 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: false,
+    enable: true,
     config: {
-      repo: "morethanmin/morethan-log",
+      repo: "ckdrkt2/ckdrkt2.github.io",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
