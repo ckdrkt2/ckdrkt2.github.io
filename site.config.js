@@ -3,7 +3,7 @@ const CONFIG = {
   profile: {
     name: "Changshin Yoo",
     image: "/profile.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "MLOps Engineer",
+    role: "Software Engineer",
     bio: "Hi!",
     email: "bbiuyy@gmail.com",
     linkedin: "changshin-yoo-4885271b1",
@@ -12,8 +12,8 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/ckdrkt2/ckdrkt2.github.io",
+      name: `Meetto`,
+      href: "https://apps.apple.com/kr/app/meetto-date-%EC%9C%A0%ED%95%99%EC%83%9D-tcks/id6465749252",
     },
   ],
   // blog setting (required)
@@ -29,7 +29,7 @@ const CONFIG = {
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
-    keywords: ["Blog", "Website", "Notion", "MLOps"],
+    keywords: ["Blog", "MLOps", "Software", "Engineer", "Backend", "Devops"],
   },
 
   // notion configuration (required)
