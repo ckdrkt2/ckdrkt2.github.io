@@ -1,6 +1,6 @@
 import { getPosts } from "../apis/notion-client/getPosts"
 import { CONFIG } from "site.config"
-import { getServerSideSitemap, ISitemapField } from "next-sitemap"
+import { getStaticPropsSitemap, ISitemapField } from "next-sitemap"
 import { GetStaticProps } from "next"
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
@@ -23,7 +23,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     changefreq: "daily",
   })
 
-  return getServerSideSitemap(ctx, fields)
+  return getStaticPropsSitemap(ctx, fields)
 }
 
 // Default export to prevent next.js errors
