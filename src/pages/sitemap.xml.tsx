@@ -1,9 +1,9 @@
 import { getPosts } from "../apis/notion-client/getPosts"
 import { CONFIG } from "site.config"
 import { getServerSideSitemap, ISitemapField } from "next-sitemap"
-import { GetServerSideProps } from "next"
+import { GetStaticProps } from "next"
 
-export const getServerSideProps: GetServerSideProps = async (ctx) => {
+export const getStaticProps: GetStaticProps = async (ctx) => {
   const posts = await getPosts()
   const dynamicPaths = posts.map((post) => `${CONFIG.link}/${post.slug}`)
 
