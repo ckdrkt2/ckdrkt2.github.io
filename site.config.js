@@ -10,7 +10,6 @@ const CONFIG = {
     github: "ckdrkt2",
     instagram: "",
   },
-  projects: [],
   // blog setting (required)
   blog: {
     title: "ckdrkt2",
@@ -24,7 +23,7 @@ const CONFIG = {
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
-    keywords: ["Blog", "Software", "Engineer", "Backend", "Devops"],
+    keywords: ["Blog", "MLOps", "Software", "Engineer", "Backend", "Devops"],
   },
 
   // notion configuration (required)
