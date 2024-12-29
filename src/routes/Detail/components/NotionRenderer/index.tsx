@@ -88,5 +88,6 @@ const StyledWrapper = styled.div`
   }
   .notion-list {
     width: 100%;
+    padding: 0;
   }
 `
