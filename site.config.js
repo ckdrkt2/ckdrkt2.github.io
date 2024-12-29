@@ -10,17 +10,12 @@ const CONFIG = {
     github: "ckdrkt2",
     instagram: "",
   },
-  projects: [
-    {
-      name: `Meetto`,
-      href: "https://apps.apple.com/kr/app/meetto-date-%EC%9C%A0%ED%95%99%EC%83%9D-tcks/id6465749252",
-    },
-  ],
+  projects: [],
   // blog setting (required)
   blog: {
     title: "ckdrkt2",
     description: "welcome to morethan-log!",
-    scheme: "light", // ['light', 'dark', 'auto']
+    scheme: "dark", // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
@@ -29,7 +24,7 @@ const CONFIG = {
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
-    keywords: ["Blog", "MLOps", "Software", "Engineer", "Backend", "Devops"],
+    keywords: ["Blog", "Software", "Engineer", "Backend", "Devops"],
   },
 
   // notion configuration (required)
