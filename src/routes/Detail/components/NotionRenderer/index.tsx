@@ -89,4 +89,7 @@ const StyledWrapper = styled.div`
   .notion-list {
     width: 100%;
   }
+  .notion-code-copy-button {
+    padding: 0.3em;
+  }
 `
